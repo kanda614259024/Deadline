@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: #a5d698;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color:rgb(12, 11, 12);
+  padding: 7rem 10rem;
+}
+h1{
+  color:rgb(12, 13, 14);
+  font-size: 60px;
+}
+
+input {
+  border: 3px solid #020202;
+  border-radius: 10px;
+
+  width: 70%;
+  height: 5px;
+
+  padding: 15px;
+  margin-bottom: 42px;
+
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button1{
+  background-color: #8db82a; /* Green */
+  border: none;
+  color: rgba(10, 8, 8, 0.904);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.photofile {
+  width: 50%;
+  background-color: rgb(173, 173, 161);
+  border-radius: 5px;
+  border: 50px solid rgba(0, 0, 0, 0.0975);
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
+
